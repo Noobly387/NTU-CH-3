@@ -7,7 +7,7 @@ public class Player {
     float x;
     float y;
     float z = 0.0f;
-    ThreadLocalRandom local;
+    ThreadLocalRandom local = ThreadLocalRandom.current();
 
     /**
      * Constructs players with fields
@@ -17,7 +17,6 @@ public class Player {
      * @param y      y
      */
     Player(int number, float x, float y) {
-        local = ThreadLocalRandom.current();
         this.number = number;
         this.x = x;
         this.y = y;
