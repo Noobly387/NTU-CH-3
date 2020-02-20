@@ -8,7 +8,7 @@ public class Main extends JFrame {
     private static final long serialVersionUID = 930103831987201154L;
 
     public static void main(String[] args) {
-        Main frame = new Main();
+        new Main();
     }
 
     /**
