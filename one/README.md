@@ -16,6 +16,6 @@ None, just a lot of fluff.
 ## 6. Acknowledgements
 ---
 None here.
-## 7. Problems
+## 7. Questions
 ---
 Not Applicable

@@ -16,6 +16,6 @@ Unlike the classes previously written, operators here did not modify the instanc
 ## 6. Acknowledgements
 ---
 None here.
-## 7. Problems
+## 7. Questions
 ---
 None

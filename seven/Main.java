@@ -1,32 +1,32 @@
 package seven;
 
-import java.awt.Graphics;
-
-import javax.swing.JComponent;
+import java.awt.Color;
+import java.awt.Dimension;
 import javax.swing.JFrame;
 
 public class Main extends JFrame {
     private static final long serialVersionUID = 930103831987201154L;
-    Player[] players = new Player[22];
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
-
+        Main frame = new Main();
     }
 
+    /**
+     * Starts the frame with a comp component
+     */
     Main() {
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+        Comp comp = new Comp();
+        setFocusable(true);
+        setBackground(Color.white);
+        setFocusTraversalKeysEnabled(false);
+        setTitle("Hivolts Assignmnet");
         setResizable(true);
+        setSize(600, 600);
+        setMinimumSize(new Dimension(600, 600));
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        getContentPane().add(comp);
         pack();
-        repaint();
-        for (int i = 0; i < 22; i++) {
-            players[i] = new Player(10 * (i / 11), 10 * i, 0);
-        }
+        setVisible(true);
     }
 
-    @Override
-    public void paint(Graphics g) {
-
-    }
 }

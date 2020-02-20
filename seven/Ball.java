@@ -5,10 +5,17 @@ public class Ball {
     float y;
     float z;
 
+    /**
+     * Constructs the ball with the input positions
+     * 
+     * @param x
+     * @param y
+     * @param z
+     */
     Ball(float x, float y, float z) {
         this.x = x;
         this.y = y;
-        this.z= z;
+        this.z = z;
     }
 
     public float getX() {
@@ -23,10 +30,17 @@ public class Ball {
         return this.z;
     }
 
+    /**
+     * Sets x,y, and z
+     * 
+     * @param x
+     * @param y
+     * @param z
+     */
     public void setXYX(float x, float y, float z) {
         this.x = x;
         this.y = y;
-        this.z= z;
+        this.z = z;
     }
 
     @Override
