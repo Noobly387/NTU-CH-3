@@ -104,7 +104,7 @@ public class MyTime {
             this.minute = 0;
             nextHour();
         } else {
-            this.hour++;
+            this.minute++;
         }
         return this;
     }
